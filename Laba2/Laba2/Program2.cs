@@ -289,7 +289,7 @@ namespace Laba2
 
             //``````````````````` ЗАДАНИЕ 2 (c) ```````````````````
             //string n_str = null;
-            //string emp_str = "*";
+            //string emp_str = "";
             //string str = "string with text";
 
             //Console.WriteLine($"IsNullOrEmpty method\n" +
