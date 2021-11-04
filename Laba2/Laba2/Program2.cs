@@ -5,40 +5,6 @@ namespace Laba2
 {
     class Program2
     {
-        //``````````````````` ЗАДАНИЕ 5 ```````````````````
-        static public (int, int, int, char) Method(int[] arr, string str)
-        {
-            int min;
-            int max;
-            int sum;
-
-            //локальная функция - это функция внутри другой функции (метода)
-            void func()
-            {
-                min = arr[0];
-                max = arr[0];
-                sum = 0;
-
-                foreach (int num in arr)
-                {
-                    if (num > max)
-                    {
-                        max = num;
-                    }
-
-                    if (num < min)
-                    {
-                        min = num;
-                    }
-
-                    sum += num;
-                }
-
-            }
-            func();
-            return (max, min, sum, str[0]);
-        }
-
         static void Main(string[] args)
         {
 
@@ -482,6 +448,38 @@ namespace Laba2
             //------------------------------------------------------------------------------------------------------------------------------------
 
             //``````````````````` ЗАДАНИЕ 5 ```````````````````
+            static (int, int, int, char) Method(int[] arr, string str)
+            {
+                int min;
+                int max;
+                int sum;
+
+                //локальная функция - это функция внутри другой функции (метода)
+                void func()
+                {
+                    min = arr[0];
+                    max = arr[0];
+                    sum = 0;
+
+                    foreach (int num in arr)
+                    {
+                        if (num > max)
+                        {
+                            max = num;
+                        }
+
+                        if (num < min)
+                        {
+                            min = num;
+                        }
+
+                        sum += num;
+                    }
+
+                }
+                func();
+                return (max, min, sum, str[0]);
+            }
 
             var result = Method(new int[] { 8, 9, 0, -1, 45 }, "hello there!");
 
