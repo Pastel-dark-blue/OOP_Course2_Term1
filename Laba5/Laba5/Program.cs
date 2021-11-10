@@ -297,7 +297,6 @@ namespace Laba5
             {
                 myPrinter.IAmPrinting(obj);
             }
-            
         }
     }
 }
