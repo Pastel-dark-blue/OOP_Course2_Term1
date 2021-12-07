@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Laba6
 {
+    
         class TVProgram
         {
             //свойства

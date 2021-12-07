@@ -2,7 +2,7 @@
 
 namespace Laba6
 {
-        public enum WaysToCreateACartoon{
+        public enum WaysToCreateACartoon {
             пластилиновый,
             рисованный,
             кукольный,
@@ -10,7 +10,7 @@ namespace Laba6
             художественный,
         }
 
-    struct Director
+    struct Director 
     {
         public string Name { get; set; }
         public string Surname { get; set; }
