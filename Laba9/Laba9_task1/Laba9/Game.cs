@@ -101,11 +101,5 @@ namespace Laba9
             Energy += 10;
             Console.WriteLine("**Вы пополнили запас энергии на 10 единиц**");
         }
-
-        public void displayCurrentEnergy()
-        {
-            Console.WriteLine($"**Ваша энергия = {Energy}**");
-        }
     }
-
 }
