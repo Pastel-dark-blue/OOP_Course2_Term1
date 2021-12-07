@@ -85,7 +85,6 @@ namespace Laba7
             Console.WriteLine();
             News n1 = new News("n1");
             n1.ChannelName = "";
-
         }
     }
 }
