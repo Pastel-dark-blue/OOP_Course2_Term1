@@ -4,6 +4,8 @@ namespace Laba9
 {
     class Program
     {
+        delegate void getCurrentState();
+
         static void Main(string[] args)
         {
             Game gamer = null;
@@ -42,6 +44,9 @@ namespace Laba9
             gamer.AttackEvent += StateAfterAttack;
             gamer.HealEvent += StateAfterHeal;
 
+            //Лямбда
+            getCurrentState displayCurrentEnergy = () => Console.WriteLine($"**Ваша энергия = {gamer.Energy}**");
+
             while (true)
             {
                 Console.WriteLine("\n--> Что вы хотите сделать? <--");
@@ -69,7 +74,7 @@ namespace Laba9
                         gamer.getEnergy();
                         break;
                     case 5:
-                        gamer.displayCurrentEnergy();
+                        displayCurrentEnergy();
                         break;
                     case 6:
                         return;
