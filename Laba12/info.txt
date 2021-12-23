@@ -1,0 +1,27 @@
+Имя типа : Laba12.Animal
+Название сборки, в которой определен тип : Laba12, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Содержит ли тип публичные конструкторы : True
+Публичные методы :
+--> get_Type
+--> set_Type
+--> get_Name
+--> set_Name
+--> get_Age
+--> set_Age
+--> pref
+--> GetType
+--> ToString
+--> Equals
+--> GetHashCode
+Поля :
+Свойства :
+--> Type
+--> Name
+--> Age
+Реализуемые интерфейсы :
+--> IPref
+Методы с параметром типа System.String :
+--> set_Type
+--> set_Name
+--> pref
+
