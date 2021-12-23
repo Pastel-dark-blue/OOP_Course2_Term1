@@ -1,0 +1,29 @@
+========================== Информация о диске C:\ ==========================
+Директории на диске C:\: 
+C:\$AV_AVG
+C:\$RECYCLE.BIN
+C:\$WINDOWS.~BT
+C:\$Windows.~WS
+C:\$WinREAgent
+C:\another folder
+C:\Config.Msi
+C:\Documents and Settings
+C:\ESD
+C:\folder
+C:\Intel
+C:\MSOCache
+C:\PerfLogs
+C:\Program Files
+C:\Program Files (x86)
+C:\ProgramData
+C:\Recovery
+C:\sun
+C:\System Volume Information
+C:\Users
+C:\Windows
+Файлы на диске C:\: 
+C:\DumpStack.log
+C:\DumpStack.log.tmp
+C:\hiberfil.sys
+C:\pagefile.sys
+C:\swapfile.sys
