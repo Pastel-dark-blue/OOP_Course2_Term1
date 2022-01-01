@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <student ed_form="бюджет">
+    <surname>Хмельная</surname>
+    <first_name>Ольга</first_name>
+    <patronymic>Андреевна</patronymic>
+    <year_of_birth>2001</year_of_birth>
+  </student>
+  <student ed_form="бюджет">
+    <surname>Зернович</surname>
+    <first_name>Ева</first_name>
+    <patronymic>Евгеньевна</patronymic>
+    <year_of_birth>2004</year_of_birth>
+  </student>
+  <student ed_form="платная">
+    <surname>Лаканов</surname>
+    <first_name>Иван</first_name>
+    <patronymic>Георгиевич</patronymic>
+    <year_of_birth>2002</year_of_birth>
+  </student>
+</students>

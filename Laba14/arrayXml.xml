@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ArrayOfFilm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Film>
+    <Title>Film 1</Title>
+    <FilmCompany>
+      <company>company 1</company>
+    </FilmCompany>
+    <DurationMinutes>87</DurationMinutes>
+  </Film>
+  <Film xsi:type="FeatureFilm">
+    <Title>Film 2</Title>
+    <FilmCompany>
+      <company>company 2</company>
+    </FilmCompany>
+    <DurationMinutes>96</DurationMinutes>
+  </Film>
+  <Film>
+    <Title>Film 3</Title>
+    <FilmCompany>
+      <company>company 3</company>
+    </FilmCompany>
+    <DurationMinutes>125</DurationMinutes>
+  </Film>
+</ArrayOfFilm>
