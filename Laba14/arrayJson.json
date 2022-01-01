@@ -1,0 +1,17 @@
+[
+  {
+    "Title": "Film 1",
+    "FilmCompany": {},
+    "DurationMinutes": 87
+  },
+  {
+    "Title": "Film 2",
+    "FilmCompany": {},
+    "DurationMinutes": 96
+  },
+  {
+    "Title": "Film 3",
+    "FilmCompany": {},
+    "DurationMinutes": 125
+  }
+]

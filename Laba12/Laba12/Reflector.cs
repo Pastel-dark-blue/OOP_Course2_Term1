@@ -71,7 +71,6 @@ namespace Laba12
             return fields;
         }
 
-
         static public PropertyInfo[] getProps(string type)
         {
             typeExist(type);
