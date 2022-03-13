@@ -1,14 +1,12 @@
-﻿using System;
-
-namespace Laba6
+﻿namespace Laba6
 {
-        public enum WaysToCreateACartoon {
-            пластилиновый,
-            рисованный,
-            кукольный,
-            компьютерный,
-            художественный,
-        }
+    public enum WaysToCreateACartoon {
+        пластилиновый,
+        рисованный,
+        кукольный,
+        компьютерный,
+        художественный,
+    }
 
     struct Director 
     {
