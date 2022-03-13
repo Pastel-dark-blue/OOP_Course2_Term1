@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Laba11
+﻿namespace Laba11
 {
     class Character
     {
